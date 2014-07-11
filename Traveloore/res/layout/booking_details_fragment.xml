@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f2f2"
+    android:orientation="vertical" >
+        
+            <LinearLayout
+                android:id="@+id/basic_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/id....."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="BOOKING NUMBER "
+                    android:textColor="@color/traveloore_green_theme" 
+                    android:visibility="gone"/>
+                
+                <TextView
+                    android:id="@+id/book_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="BOOKING NUMBER "
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                    />
+
+                <TextView
+                    android:id="@+id/book_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="BOOKING DATE"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+ <TextView
+                    android:id="@+id/book_start_dat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="START DATE"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+       
+                <TextView
+                    android:id="@+id/book_end_dat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="END DATE"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+                
+                 <TextView
+                    android:id="@+id/book_advance_amoun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="ADVANCE AMOUNT"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_advance_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+                
+                 <TextView
+                    android:id="@+id/book_total_amoun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="TOTAL AMOUNT"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/booking_total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+               
+                <TextView
+                    android:id="@+id/customer_nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="CUSTOMER NAME"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/customer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+                <TextView
+                    android:id="@+id/addres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="ADDRESS"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+               
+<TextView
+                    android:id="@+id/phone_numbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="PHONE NUMBER"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+                <TextView
+                    android:id="@+id/email_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="EMAIL ID"
+                    android:textColor="@color/traveloore_green_theme" />
+                
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/email_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text=""
+                     />
+                
+
+          
+        </LinearLayout>
+   
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+             android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/perticular_task_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DealName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/traveloore_green_theme"
+                android:textSize="15dip" />
+            
+            <TextView
+                android:id="@+id/perticular_task_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Priority"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/traveloore_green_theme"
+                android:textSize="15dip" 
+                android:layout_marginLeft="3px"/>
+            
+			</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/perticular_task_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="association"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/perticular_task_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="value"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/perticular_task_assignedto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="refferal"
+        android:visibility="gone" />
+
+</LinearLayout>

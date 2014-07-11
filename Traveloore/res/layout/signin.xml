@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@color/traveloore_main_background" 
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_height="97dp" 
+        android:layout_width="96dp" 
+        android:src="@drawable/logo_main" 
+        android:id="@+id/imageView"/>
+    <TextView android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/textView" 
+        android:textColor="@color/traveloore_logo_green" 
+        android:layout_marginTop="20dp" 
+        android:typeface="monospace" 
+        android:textSize="50dp" 
+        android:text="TRAVELOORE" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <LinearLayout android:layout_height="wrap_content" 
+        android:layout_width="300dp" 
+        android:orientation="vertical" 
+        android:layout_marginTop="10dp">
+        <EditText android:gravity="center" 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent" 
+            android:id="@+id/et_username" 
+            android:inputType="textPersonName" 
+            android:ellipsize="start" 
+            android:hint="USERNAME" 
+            android:ems="10"/><EditText 
+            android:gravity="center" 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent" 
+            android:id="@+id/et_password" 
+            android:inputType="textPassword" 
+            android:ellipsize="start" 
+            android:hint="PASSWORD" 
+            android:ems="10"/>
+            <Button 
+                android:background="@drawable/traveloore_button_seclector" 
+                android:layout_height="30dp" 
+                android:layout_width="fill_parent" 
+                android:id="@+id/button_signin" 
+                android:textColor="@color/white" 
+                android:text="SIGN IN"/></LinearLayout>
+    <TextView android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/forgot_password" 
+        android:textColor="@android:color/darker_gray" 
+        android:layout_marginTop="10dp" 
+        android:text="" 
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    
+
+</LinearLayout>

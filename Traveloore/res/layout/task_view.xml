@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+                android:orientation="vertical"
+               android:padding="2dp" >       
+ 
+      <LinearLayout
+                android:id="@+id/basic_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/contact_regarding_deal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="Assigned to me"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                       android:background="@color/traveloore_green_theme">
+                    
+                </View>
+ 
+ </LinearLayout>
+
+      <ListView
+          android:id="@+id/listView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#C8C8C8" >
+      </ListView>
+
+</LinearLayout>

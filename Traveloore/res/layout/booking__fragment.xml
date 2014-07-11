@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f2f2"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp" >
+
+                <Button
+                    android:id="@+id/booking_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/traveloore_button_seclector"
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="12dp"
+                    android:text="BOOKING DETAILS"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+              <LinearLayout
+                android:id="@+id/booking_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+                     
+            <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="SELECT JOURNEY DATE"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+            
+                
+                 
+                 <Button
+		         android:id="@+id/start_date"
+	         	android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:layout_weight="0.50"
+		         android:text="Start Date"/>
+		
+	
+	
+                 <Button
+		android:id="@+id/end_date"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:layout_weight="0.50"
+		android:text="End Date">
+	</Button>
+	    
+	     <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="ADVANCE AMOUNT"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/advance_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:textSize="16sp"
+                    android:text="Total Amount"
+                     />
+                
+                
+                
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="TOTAL AMOUNT"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+               
+                <TextView
+                    android:id="@+id/total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:textSize="16sp"
+                    android:text="Total Amount"
+                    />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp" >
+
+                <Button
+                    android:id="@+id/customer_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/traveloore_button_seclector"
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="12dp"
+                    android:text="CUSTOMER DETAILS"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/customer_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="277dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <!--  -->
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="Customer ID"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/customer_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="10"
+                    android:ems="10"
+                    android:inputType="phone" 
+                    android:hint="Customer Id"/>
+
+                <!--  -->
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="CUSTOMER NAME"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+                <!--  -->
+
+                <EditText
+                    android:id="@+id/customer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Customer Name"
+                    android:inputType="textEmailAddress" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="GENDER"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                  <Spinner
+                      android:id="@+id/gender"
+                      android:layout_width="fill_parent"
+                      android:layout_height="36dp" />
+"
+                <!--  -->
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="ADDRESS"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Address"
+                    android:inputType="text|textPostalAddress" />
+             
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="CITY"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                  <Spinner 
+                     android:id="@+id/city"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"/>"
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="STATE"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                  <Spinner 
+                     android:id="@+id/state"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"/>"
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="COUNTRY"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                  <Spinner 
+                     android:id="@+id/country"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"/>"
+                
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="ZIP CODE"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/zip_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Postal Address"
+                    android:inputType="textPersonName" />
+              
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="MOBILE NUMBER"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/mobile_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Contact Number"
+                    android:inputType="textPersonName" />
+                
+               <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="EMAIL ADDRESS"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Email Address"
+                    android:inputType="textPersonName" />
+               <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="IDENTIFICATION TYPE"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                  <Spinner 
+                     android:id="@+id/id_type"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"/>"
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="IDENTIFICATION NUMBER"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <EditText
+                    android:id="@+id/id_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Identification Number"
+                    android:inputType="textPersonName" />
+          </LinearLayout>      
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp" >
+
+                <Button
+                    android:id="@+id/package_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/traveloore_button_seclector"
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="12dp"
+                    android:text="PACKAGE DETAILS"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            
+                 <LinearLayout
+                android:id="@+id/package_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="277dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+                
+               <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="PACKAGE ID"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/package_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:textSize="16sp"
+                    android:text="PACKAGE NAME"
+                     />
+                
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="PACKAGE NAME"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme" />
+
+                <TextView
+                    android:id="@+id/package_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:textSize="16sp"
+                    android:text="PACKAGE NAME"
+                     />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="NUMBER OF ADULTS"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme"
+                    android:text="TITLE" />
+
+                <EditText
+                    android:id="@+id/no_of_adults"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Number of Adults"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="NUMBER OF CHILDREN"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme"
+                    android:text="TITLE" />
+
+                <EditText
+                    android:id="@+id/no_of_children"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Number of Children"
+                    android:inputType="textPersonName" />
+              
+              <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="DESCRIPTION"
+                    android:textColor="@color/traveloore_green_theme" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/traveloore_green_theme"
+                    android:text="TITLE" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="Description"
+                    android:inputType="textPersonName" />
+          </LinearLayout>      
+             </LinearLayout>
+             </LinearLayout>
+</ScrollView>

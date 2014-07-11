@@ -1,0 +1,7 @@
+<resources>
+
+    <drawable name="button_pressed">#97db2e</drawable>
+    <drawable name="button_focused">#a3a3a3</drawable>
+    <drawable name="button_default">#cbcbcb</drawable>
+
+</resources>

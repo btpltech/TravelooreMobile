@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+    <item 
+        android:id="@+id/contact_ok"
+        android:title="Add Contact"
+        android:icon="@drawable/add"
+        android:showAsAction="always">
+   <menu >
+	        <item android:title="Add a person" android:id="@+id/add_person"/>
+	        <item android:title="Add a company" android:id="@+id/add_company"/>
+	    </menu>
+	    
+	</item>
+        
+</menu>

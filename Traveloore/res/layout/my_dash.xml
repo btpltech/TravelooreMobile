@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:background="@color/traveloore_main_background" 
+    android:weightSum="5" android:orientation="vertical" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager 
+        android:background="#89c730" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent" 
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_weight="4" android:id="@+id/pager">
+        <android.support.v4.view.PagerTitleStrip 
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent" 
+            android:id="@+id/pager_title_strip" 
+            android:textColor="#fff" 
+            android:paddingTop="4dp" 
+            android:paddingBottom="4dp" 
+            android:layout_gravity="top"/></android.support.v4.view.ViewPager>
+    <LinearLayout android:orientation="vertical" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent" 
+        android:layout_weight="1">
+        <ListView 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent" 
+            android:id="@android:id/list"> </ListView>
+        <LinearLayout android:orientation="vertical" 
+            android:layout_height="fill_parent" 
+            android:layout_width="fill_parent" 
+            android:id="@+id/empty" 
+            android:gravity="center">
+            <ImageView android:layout_height="wrap_content" 
+                android:layout_width="wrap_content" 
+                android:id="@+id/imageView1" 
+                android:src="@drawable/dashboard_grey"/>
+            <TextView android:layout_height="wrap_content" 
+                android:layout_width="fill_parent" 
+                android:gravity="center" 
+                android:paddingRight="20dp" 
+                android:paddingLeft="20dp" 
+                android:textSize="30dp" 
+                android:text=""/>
+        </LinearLayout></LinearLayout></LinearLayout>

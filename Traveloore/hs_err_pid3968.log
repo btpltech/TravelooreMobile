@@ -1,0 +1,96 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (434C41535326494C453041525345520E4350500B65), pid=3968, tid=3952
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_03-b05 mixed mode)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02168c00):  JavaThread "Unknown thread" [_thread_in_vm, id=3952]
+
+Stack: [0x00350000,0x003a0000)
+[error occurred during error reporting, step 110, id 0xc00000fd]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [javaw.exe+0xc4fc]
+C  [javaw.exe+0x81b5]
+C  [KERNEL32.DLL+0x28543]
+C  [ntdll.dll+0x5ac69]
+C  [ntdll.dll+0x5ac3c]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+VM state:not at safepoint (not fully initilizated)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 0K [0x04170000, 0x04270000, 0x04650000)
+  eden space 896K,   0% used [0x04170000, 0x04170000, 0x04250000)
+  from space 64K,   0% used [0x04250000, 0x04250000, 0x04260000)
+  to   space 64K,   0% used [0x04260000, 0x04260000, 0x04270000)
+ tenured generation   total 4096K, used 0K [0x04650000, 0x04a50000, 0x08170000)
+   the space 4096K,   0% used [0x04650000, 0x04650000, 0x04650200, 0x04a50000)
+ compacting perm gen  total 12288K, used 100K [0x08170000, 0x08d70000, 0x0c170000)
+   the space 12288K,   0% used [0x08170000, 0x081893a8, 0x08189400, 0x08d70000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\javaw.exe
+0x77b40000 - 0x77c97000 	C:\Windows\SYSTEM32\ntdll.dll
+0x75d10000 - 0x75e40000 	C:\Windows\SYSTEM32\KERNEL32.DLL
+0x75550000 - 0x755f6000 	C:\Windows\SYSTEM32\KERNELBASE.dll
+0x750c0000 - 0x75167000 	C:\Windows\system32\apphelp.dll
+0x762f0000 - 0x7639e000 	C:\Windows\SYSTEM32\ADVAPI32.dll
+0x75a30000 - 0x75b46000 	C:\Windows\SYSTEM32\USER32.dll
+0x75b50000 - 0x75c01000 	C:\Windows\SYSTEM32\msvcrt.dll
+0x76130000 - 0x76164000 	C:\Windows\SYSTEM32\sechost.dll
+0x77850000 - 0x778fc000 	C:\Windows\SYSTEM32\RPCRT4.dll
+0x76030000 - 0x7612d000 	C:\Windows\SYSTEM32\GDI32.dll
+0x751e0000 - 0x751fc000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x751d0000 - 0x751d9000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x75170000 - 0x751c1000 	C:\Windows\SYSTEM32\bcryptPrimitives.dll
+0x77820000 - 0x77840000 	C:\Windows\system32\IMM32.DLL
+0x75600000 - 0x756dc000 	C:\Windows\SYSTEM32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\msvcr71.dll
+0x6d7c0000 - 0x6da0a000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\client\jvm.dll
+0x6e3b0000 - 0x6e3d1000 	C:\Windows\SYSTEM32\WINMM.dll
+0x001c0000 - 0x001ea000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x6d310000 - 0x6d318000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\hpi.dll
+0x77840000 - 0x77846000 	C:\Windows\SYSTEM32\PSAPI.DLL
+0x6d770000 - 0x6d77c000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\verify.dll
+0x6d3b0000 - 0x6d3cf000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\java.dll
+0x6d7b0000 - 0x6d7bf000 	C:\Program Files (x86)\Java\jre1.6.0_03\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\Himanshu's Code\Desktop\adt-bundle-windows-x86-20130522\adt-bundle-windows-x86-20130522\sdk\platforms\android-15\android.jar
+java_command: com.bremskerl.de.interfaces.openerp.DevelopmentTemplate
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files (x86)/Java/jre1.6.0_03/bin/client;C:/Program Files (x86)/Java/jre1.6.0_03/bin;C:/Program Files (x86)/Java/jre1.6.0_03/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.6.0_03\bin;.;C:\Users\Himanshu's Code\Desktop\adt-bundle-windows-x86-20130522\adt-bundle-windows-x86-20130522\eclipse;
+USERNAME=Himanshu's Code
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 4189036k(1649236k free), swap 4194303k(1546720k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_03-b05) for windows-x86, built on Sep 24 2007 22:24:33 by "java_re" with unknown MS VC++:1310
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item 
+	    android:id="@+id/contactdetail_new"
+	    android:title="add_new"
+	    android:showAsAction="always"
+	    >
+	    <menu >
+	        <item android:title="Add Note" android:id="@+id/deal_detail_addNote"/>
+	        <item android:title="Add Task" android:id="@+id/deal_detail_addTask"/>
+	    </menu>
+	    
+	</item>
+	 
+	</menu>

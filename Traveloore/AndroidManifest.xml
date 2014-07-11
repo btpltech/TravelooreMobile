@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexrs95.slidingmenuandviewpager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light"
+        android:screenOrientation="nosensor" android:configChanges="keyboardHidden|orientation">
+        <activity
+            android:name="com.alexrs95.slidingmenuandviewpager.MainActivity"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+               
+       
+        
+      
+        
+        <activity android:name=".ContactDetail"></activity>
+        
+        <activity android:name=".Package_Adder"></activity>
+        <activity android:name="com.btpl.database.UploadImage"></activity>
+    	<activity android:name=".AddPackage"></activity>
+    	<activity android:name=".Add_Report"></activity>
+    	<activity android:name=".Add_Deal"></activity>
+    	<provider android:name="com.btpl.database.MyDatabaseProvider"
+    	    android:authorities="com.btpl.database.MyDbProvider"></provider>
+    	<activity android:name=".Add_Task">
+    		<intent-filter>
+    		  <action android:name="android.intent.action.Add_Task" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+    		    
+    		</intent-filter>
+    	</activity>
+    	<activity android:name=".Add_Lead"></activity>
+    	<activity android:name="com.btpl.contactfragments.AddNote">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="SignUp_Activity"
+    	    android:noHistory="true"
+    	    >
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="DealDetails">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Add_Company">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Add_Contact_Which_Is_Lead">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="LeadsDetails">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="com.btpl.contactfragments.NoteCurd">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="signin"
+    	    android:label="Login Panel"
+    	    android:noHistory="true">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="com.btpl.contactfragments.NoteCurd1">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Convert">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="com.btpl.contactfragments.AddNote_Deal">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="com.btpl.contactfragments.Add_Note_Contact">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Add_Contact_Which_Is_Lead_Edit">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Edit_Lead">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	<activity android:name="Edit_Deal">
+    		<intent-filter></intent-filter>
+    	</activity>
+    	
+    <activity android:name="Edit_Task">
+    		<intent-filter></intent-filter>
+    	</activity>
+    <activity android:name="com.btpl.contactfragments.Note_Curd_Lead"></activity>
+    <activity android:name="Package_Details"></activity>
+    <activity android:name="Booking_Classs"></activity>
+    <activity android:name="Package_Detailsssss"></activity>
+        <activity android:name="BookingDetails"></activity>
+    	
+    	
+    	
+    </application>
+
+</manifest>

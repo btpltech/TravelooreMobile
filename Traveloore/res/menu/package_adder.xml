@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+    <item 
+        android:id="@+id/p_adder_ok"
+        android:title="ok"
+        android:showAsAction="always"
+        />
+    <item 
+        android:id="@+id/p_adder_cancel"
+        android:title="cancel"
+        android:showAsAction="always"
+        />
+</menu>
